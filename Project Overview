@@ -1,0 +1,29 @@
+/dynamic-website
+  ├── frontend/           # UI Files
+  │   ├── index.html      # Home Page
+  │   ├── styles.css      # CSS Styling
+  │   ├── script.js       # JavaScript Interactions
+  │   ├── about.html      # About Page
+  │   ├── contact.html    # Contact Form
+  │   ├── images/         # Image assets
+  │
+  ├── backend-php/        # PHP Backend
+  │   ├── config.php      # Database Config
+  │   ├── login.php       # User Authentication
+  │   ├── register.php    # User Registration
+  │   ├── dashboard.php   # Dashboard API
+  │
+  ├── backend-asp/        # ASP.NET Backend
+  │   ├── Web.config      # ASP.NET Configuration
+  │   ├── LoginController.cs  # ASP.NET Authentication
+  │   ├── RegisterController.cs # ASP.NET Registration
+  │
+  ├── database/           # Database Structure
+  │   ├── schema.sql      # SQL Schema
+  │
+  ├── docs/               # Documentation
+  │   ├── README.md       # Project Overview
+  │   ├── AWS-Deployment.md  # AWS Setup Guide
+  │
+  ├── .gitignore          # Ignoring sensitive files
+  ├── README.md           # Project Description
