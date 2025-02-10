@@ -1,0 +1,11 @@
+<?php
+$host = "your-aws-rds-host";
+$user = "your-db-user";
+$pass = "your-db-password";
+$db = "dynamic_website";
+
+$conn = new mysqli($host, $user, $pass, $db);
+if ($conn->connect_error) {
+    die("Database connection failed: " . $conn->connect_error);
+}
+?>
